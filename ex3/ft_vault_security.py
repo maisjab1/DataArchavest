@@ -1,7 +1,7 @@
 def main() -> None:
     print("=== CYBER ARCHIVES - VAULT SECURITY SYSTEM ===\n")
     print("Initiating secure vault access...")
-    file_path = "F:\\42\\data-generator-tools\\classified_data.txt"
+    file_path = "classified_data.txt"
     with open(file_path, "r") as file:
         data = file.read()
         print("Vault connection established with failsafe protocols\n")

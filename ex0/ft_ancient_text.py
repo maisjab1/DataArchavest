@@ -1,15 +1,15 @@
 def main() -> None:
     print("=== CYBER ARCHIVES - DATA RECOVERY SYSTEM ===")
-    file_path = "F:\\42\\data-generator-tools\\ancient_fragment.txt"
+    file_path = "ancient_fragment.txt"
     print("Accessing Storage Vault: ancient_fragment.txt")
     try:
         file = open(file_path, "r")
         text = file.read()
-        print("Connection established...")
+        print("Connection established...\n")
         print("Recovered Data:")
         print(text)
         file.close()
-        print("Data recovery complete. Storage unit disconnected.")
+        print("\nData recovery complete. Storage unit disconnected.")
     except FileNotFoundError:
         print("ERROR: Storage vault not found. Run data generator first. ")
 

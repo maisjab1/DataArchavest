@@ -24,7 +24,7 @@ def main() -> None:
 
     print("CRISIS ALERT: Attempting access to  ’classified_vault.txt’...")
     archive_manager("classified_vault.txt")
-    file_path = "F:\\42\\data-generator-tools\\standard_archive.txt"
+    file_path = "standard_archive.txt"
 
     print("ROUTINE ACCESS: Attempting access to ’standard_archive.txt’...")
     archive_manager(file_path)
